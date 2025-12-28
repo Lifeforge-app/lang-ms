@@ -22,7 +22,8 @@
     "keyDescription": "Deskripsi Kunci",
     "keyIcon": "Ikon Kunci",
     "apiKey": "Kunci API",
-    "keyId": "ID Kunci"
+    "keyId": "ID Kunci",
+    "isExposable": "Bolehkah Didedahkan"
   },
   "items": {
     "apiKey": "Kunci API"

@@ -8,6 +8,10 @@
     "noBackups": {
       "title": "Tiada Sandaran Ditemui",
       "description": "Tiada salinan tersedia. Buat yang baru menggunakan butang di atas."
+    },
+    "toBeImplemented": {
+      "title": "Akan Diperlaksanakan Semula",
+      "description": "Fungsi pemulihan sandaran akan ditambah semula tidak lama lagi."
     }
   },
   "modals": {
