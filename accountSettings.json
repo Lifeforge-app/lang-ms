@@ -43,6 +43,9 @@
     "disable2FA": {
       "title": "Nyahaktifkan Pengesahan Dua Faktor",
       "description": "Adakah anda pasti mahu menyahaktifkan pengesahan dua faktor?"
+    },
+    "changePassword": {
+      "title": "Tukar Kata Laluan"
     }
   },
   "buttons": {
@@ -52,7 +55,19 @@
     "dateOfBirth": "Tarikh Lahir",
     "username": "Nama Pengguna",
     "email": "Alamat Emel",
-    "displayName": "Nama Paparan"
+    "displayName": "Nama Paparan",
+    "currentPassword": {
+      "label": "Kata Laluan Semasa",
+      "placeholder": "Masukkan kata laluan semasa anda"
+    },
+    "newPassword": {
+      "label": "Kata Laluan Baru",
+      "placeholder": "Masukkan kata laluan baru anda"
+    },
+    "confirmPassword": {
+      "label": "Sahkan Kata Laluan Baru",
+      "placeholder": "Masukkan kata laluan baru anda sekali lagi"
+    }
   },
   "messages": {
     "twoFA": {
