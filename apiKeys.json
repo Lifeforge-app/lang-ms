@@ -12,6 +12,10 @@
     "apiKey": {
       "create": "Cipta Kunci API",
       "update": "Kemas kini Kunci API"
+    },
+    "modulesRequired": {
+      "title": "Modul Diperlukan",
+      "totalModulesRequire": "Sebanyak {{count}} modul memerlukan Kunci API ini."
     }
   },
   "buttons": {
@@ -34,5 +38,11 @@
       "title": "Tiada Kunci API",
       "description": "Tiada kunci API dijumpai. Klik butang di bawah untuk mencipta kunci API baru"
     }
+  },
+  "misc": {
+    "requiredBy": "Diperlukan oleh: {{count}} modul",
+    "lastUpdated": "Terakhir dikemas kini: {{time}}",
+    "exposable": "Boleh Didedahkan",
+    "internalOnly": "Dalaman Sahaja"
   }
 }
