@@ -23,7 +23,8 @@
     "keyIcon": "Ikon Kunci",
     "apiKey": "Kunci API",
     "keyId": "ID Kunci",
-    "isExposable": "Bolehkah Didedahkan"
+    "isExposable": "Bolehkah Didedahkan",
+    "overrideKey": "Gantikan Kunci"
   },
   "items": {
     "apiKey": "Kunci API"
