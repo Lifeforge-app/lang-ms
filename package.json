@@ -1,0 +1,14 @@
+{
+  "name": "@lifeforge/lang-ms",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifeforge-app/lang-ms"
+  },
+  "description": "Bahasa Malaysia language support for LifeForge.",
+  "author": "melvinchia3636 <melvinchia623600@gmail.com>",
+  "lifeforge": {
+    "displayName": "Bahasa Malaysia",
+    "icon": "circle-flags:my"
+  }
+}
