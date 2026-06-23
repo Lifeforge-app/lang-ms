@@ -154,5 +154,6 @@
   "inputs": {
     "colorHex": "Kod Warna Hex"
   },
-  "notApplicable": "Tidak Berkenaan"
+  "notApplicable": "Tidak Berkenaan",
+  "unsupportedModulesWarning": "Modul berikut tidak menyokong bahasa yang dipilih:"
 }

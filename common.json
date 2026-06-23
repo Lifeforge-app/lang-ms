@@ -1,0 +1,455 @@
+{
+  "buttons": {
+    "create": "Cipta",
+    "update": "Kemas kini",
+    "edit": "Sunting",
+    "rename": "Namakan semula",
+    "select": "Pilih",
+    "cancel": "Batal",
+    "delete": "Padam",
+    "save": "Simpan",
+    "copy": "Salin",
+    "copied": "Disalin",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya",
+    "print": "Cetak",
+    "remove": "Buang",
+    "upload": "Muat naik",
+    "import": "Import",
+    "submit": "Hantar",
+    "new": "Tambah {{item}}",
+    "proceed": "Teruskan",
+    "applyFilters": "Guna Penapis",
+    "retry": "Cuba lagi",
+    "refresh": "Segarkan",
+    "pin": "Pin",
+    "unpin": "Nyahpin",
+    "search": "Cari",
+    "favourite": "Kegemaran",
+    "unfavourite": "Nyahkegemaran",
+    "archive": "Arkib",
+    "unarchive": "Nyaharkib",
+    "download": "Muat turun",
+    "stop": "Berhenti",
+    "record": "Rakam",
+    "overwrite": "Timpa",
+    "adjust": "Sesuaikan",
+    "downloading": "Sedang Muat Turun ...",
+    "generate": "Janakan",
+    "regenerate": "Jana Semula",
+    "confirm": "Sahkan",
+    "goBack": "Kembali"
+  },
+  "modals": {
+    "deleteConfirmation": {
+      "title": "Adakah anda pasti mahu memadam {{itemName}}?",
+      "desc": "Ini akan memadam {{itemName}} dan semua kandungan yang berkaitan. Tindakan ini tidak boleh dipulihkan!",
+      "inputs": {
+        "confirmation": {
+          "placeholder": "Sila taip \"{{text}}\" untuk mengesahkan pemadaman",
+          "label": "Sahkan Pembuangan"
+        }
+      },
+      "error": "Ralat semasa memadam item. Sila cuba lagi."
+    },
+    "searchFilters": "Penapis Carian",
+    "iconPicker": {
+      "title": "Pilih Ikon",
+      "items": {
+        "icon": "Ikon",
+        "iconSet": "Set Ikon"
+      },
+      "empty": {
+        "icon": {
+          "title": "Tiada ikon",
+          "description": "Tiada ikon ditemui, sila cuba kata kunci lain."
+        }
+      }
+    },
+    "imagePicker": {
+      "title": "Pilih Fail",
+      "local": "Muat naik imej tempatan",
+      "url": "URL Imej",
+      "pixabay": "Muat turun dari Pixabay",
+      "orPasteLink": "Atau tampal pautan imej",
+      "inputs": {
+        "imageLink": "Pautan imej",
+        "imageType": "Jenis imej",
+        "imageCategory": "Kategori imej",
+        "imageColor": "Warna imej",
+        "editorsChoice": "Pilihan Editor",
+        "prompt": "Teks Prompt AI"
+      },
+      "imageType": {
+        "all": "Semua",
+        "photo": "Foto",
+        "vector": "Vektor",
+        "illustration": "Ilustrasi"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "Tiada hasil",
+          "description": "Tiada imej ditemui, sila cuba kata kunci lain."
+        },
+        "pixabay": {
+          "title": "Disediakan oleh Pixabay",
+          "description": "Cari lebih daripada 13 juta imej percuma berkualiti tinggi."
+        },
+        "noAPIKey": {
+          "title": "Kunci API Pixabay tidak dikonfigurasikan",
+          "description": "Sila tetapkan kunci API Pixabay anda dalam Peti Kunci API untuk menggunakan ciri ini."
+        },
+        "noOpenAIKey": {
+          "title": "Kunci API OpenAI tidak dikonfigurasikan",
+          "description": "Sila tetapkan kunci API OpenAI anda dalam Peti Kunci API untuk menggunakan ciri ini."
+        }
+      },
+      "ai": "Penjanaan Imej AI"
+    },
+    "colorPicker": {
+      "title": "Pilih Warna",
+      "modals": {
+        "morandiColorPalette": "Palet Warna Morandi",
+        "tailwindCssColorPalette": "Palet Warna Tailwind CSS",
+        "flatUiColors": "Flat UI Colors"
+      },
+      "buttons": {
+        "morandiColorPalette": "Palet Warna Morandi",
+        "tailwindCssColorPalette": "Palet Warna Tailwind CSS",
+        "flatUiColors": "Flat UI Colors"
+      }
+    },
+    "imagePreview": "Pratonton Imej",
+    "qrCodeScanner": "Pengimbas Kod QR",
+    "viewImage": "Lihat Imej"
+  },
+  "misc": {
+    "search": "Cari {{item}}...",
+    "notFound": {
+      "title": "Oops! Tiada apa-apa di sini",
+      "description": "Halaman yang anda cari tidak dapat dijumpai. Sila semak URL dan cuba lagi."
+    },
+    "tipsAndTricks": "Petua dan Trik",
+    "loadingModule": "Memuatkan modul...",
+    "deprecated": "Tidak lagi disokong",
+    "imageUpload": {
+      "local": "Muat naik imej tempatan",
+      "url": "URL Imej",
+      "pixabay": "Muat turun dari Pixabay",
+      "orPasteLink": "Atau tampal pautan imej",
+      "inputs": {
+        "imageLink": "Pautan imej",
+        "imageType": "Jenis imej",
+        "imageCategory": "Kategori imej",
+        "imageColor": "Warna imej",
+        "editorsChoice": "Pilihan Editor"
+      },
+      "imageType": {
+        "all": "Semua",
+        "photo": "Foto",
+        "vector": "Vektor",
+        "illustration": "Ilustrasi"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "Tiada hasil",
+          "description": "Tiada imej dijumpai, sila cuba kata kunci lain."
+        },
+        "pixabay": {
+          "title": "Disediakan oleh Pixabay",
+          "description": "Cari lebih daripada 13 juta imej percuma berkualiti tinggi."
+        }
+      }
+    },
+    "dnd": {
+      "dropHere": "Letakkan item di sini",
+      "dragAndDropToUpload": "Seret dan lepas atau klik untuk memuat naik",
+      "or": "atau",
+      "buttons": {
+        "pasteFromClipboard": "Tampal dari Papan Klip"
+      }
+    },
+    "buttons": {
+      "goBack": "Kembali",
+      "reportBug": "Laporkan pepijat"
+    },
+    "colorPicker": {
+      "title": "Pilih warna",
+      "modals": {
+        "morandiColorPalette": "Palet warna Morandi",
+        "tailwindCssColorPalette": "Palet warna Tailwind CSS"
+      },
+      "buttons": {
+        "morandiColorPalette": "Palet warna Morandi",
+        "tailwindCssColorPalette": "Palet warna Tailwind CSS"
+      }
+    },
+    "empty": {
+      "apiStatus": {
+        "title": "Tidak dapat menyambung ke API",
+        "description": "Sila semak sambungan rangkaian anda dan cuba lagi. Jika anda seorang pembangun, sila semak jika pelayan berjalan dengan betul."
+      }
+    },
+    "iconPicker": {
+      "items": {
+        "icon": "Ikon",
+        "iconSet": "Set ikon"
+      },
+      "empty": {
+        "icon": {
+          "title": "Tiada ikon",
+          "description": "Tiada ikon dijumpai, sila cuba kata kunci lain."
+        }
+      }
+    },
+    "locationDisabled": {
+      "description": "Input lokasi kini tidak tersedia. Sila tambah kunci API Google Cloud yang telah dikonfigurasikan dengan betul untuk mengaktifkan ciri ini. Untuk maklumat lanjut, rujuk kepada",
+      "title": "T/A"
+    },
+    "dates": {
+      "months": {
+        "0": "Januari",
+        "1": "Februari",
+        "2": "Mac",
+        "3": "April",
+        "4": "Mei",
+        "5": "Jun",
+        "6": "Julai",
+        "7": "Ogos",
+        "8": "September",
+        "9": "Oktober",
+        "10": "November",
+        "11": "Disember"
+      },
+      "days": {
+        "0": "Isnin",
+        "1": "Selasa",
+        "2": "Rabu",
+        "3": "Khamis",
+        "4": "Jumaat",
+        "5": "Sabtu",
+        "6": "Ahad"
+      }
+    },
+    "fieldRequired": "Ruangan ini adalah wajib.",
+    "invalidField": "Medan tidak sah.",
+    "invalidColor": "Warna tidak sah. Sila masukkan nilai hex yang sah dalam format #RRGGBB.",
+    "invalidIcon": "Ikon tidak sah. Ia mesti pengenalan ikon yang sah dari Iconify dalam format <icon-set>:<icon-name>.",
+    "loadingUserData": "Memuatkan data pengguna...",
+    "invalidSelection": "Pemilihan tidak sah. Sila pilih pilihan yang sah dari senarai.",
+    "fileInputSupportedFormat": "Format yang disokong: {{format}}"
+  },
+  "sidebar": {
+    "categories": {
+      "productivity": "Produktiviti",
+      "storage": "Penyimpanan",
+      "study": "Pembelajaran",
+      "finance": "Kewangan",
+      "confidential": "Sulit",
+      "settings": "Tetapan",
+      "technologies": "Teknologi",
+      "utilities": "Utiliti",
+      "information": "Maklumat",
+      "sso": "Log Masuk Tunggal",
+      "references": "Rujukan",
+      "lifestyle": "Gaya Hidup",
+      "externalManagement": "Pengurusan Luaran",
+      "healthFitness": "Kesihatan & Kecergasan"
+    },
+    "buttons": {
+      "signOut": "Log Keluar",
+      "accountSettings": "Tetapan Akaun"
+    },
+    "items": {
+      "module": "Modul"
+    },
+    "empty": {
+      "modules": {
+        "title": "Tiada Modul Ditemui",
+        "description": "Cuba mengubahcari modul."
+      }
+    }
+  },
+  "fetch": {
+    "error": "Gagal mendapatkan data dari pelayan",
+    "success": "Yay! Berjaya {{action}} item!",
+    "failure": "Oh tidak... Gagal {{action}} item. Sila cuba lagi.",
+    "action": {
+      "create": "mencipta",
+      "update": "mengemas kini",
+      "delete": "memadam",
+      "rename": "menamakan semula",
+      "pin": "pin",
+      "unpin": "nyahpin",
+      "archive": "arkib",
+      "unarchive": "nyaharkib",
+      "remove": "mengeluarkan",
+      "add": "menambah",
+      "save": "menyimpan",
+      "public": "umum",
+      "private": "peribadi",
+      "replace": "menggantikan",
+      "clearMedium": "membersihkan",
+      "thumbnail": "mengemas kini gambar kecil",
+      "generate": "menjana",
+      "cleanedup": "dibersihkan",
+      "summarized": "diringkaskan",
+      "unlock": "membuka kunci",
+      "download": "memuat turun",
+      "NASFilesReady": " Fail sedia untuk dimuat turun. Pergi ke NAS anda.",
+      "addedToFavourites": "ditambah ke kegemaran",
+      "removedFromFavourites": "dikeluarkan dari kegemaran"
+    },
+    "redirected": "telah dialihkan",
+    "redirecting": "mengalihkan...",
+    "unlock": "membuka kunci"
+  },
+  "auth": {
+    "header": "Selamat Kembali",
+    "desc": "Log masuk untuk meneruskan rakaman perjalanan hidup anda.",
+    "welcome": {
+      "header": "Selamat Datang!",
+      "desc": "Cipta akaun anda untuk mula membina kehidupan yang lebih baik."
+    },
+    "sideImageDesc": {
+      "part1": "Suatu hari nanti anda akan meninggalkan dunia ini",
+      "part2": "jadi hiduplah dengan kehidupan yang anda akan ingat"
+    },
+    "or": "atau",
+    "buttons": {
+      "signIn": "Log Masuk",
+      "proceed": "Teruskan"
+    },
+    "inputs": {
+      "emailOrUsername": {
+        "label": "Emel atau Nama Pengguna",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "email": {
+        "label": "Emel",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "username": {
+        "label": "Nama Pengguna",
+        "placeholder": "johndoe"
+      },
+      "name": {
+        "label": "Nama Paparan",
+        "placeholder": "John Doe"
+      },
+      "password": {
+        "label": "Kata Laluan",
+        "placeholder": "Masukkan kata laluan anda"
+      },
+      "confirmPassword": {
+        "label": "Sahkan Kata Laluan",
+        "placeholder": "Masukkan semula kata laluan anda"
+      }
+    },
+    "validation": {
+      "emailRequired": "Emel diperlukan",
+      "emailInvalid": "Sila masukkan alamat emel yang sah",
+      "usernameRequired": "Nama pengguna diperlukan",
+      "usernameTooShort": "Nama pengguna mesti sekurang-kurangnya 3 aksara",
+      "usernameInvalid": "Nama pengguna hanya boleh mengandungi huruf, nombor, dan garis bawah",
+      "nameRequired": "Nama diperlukan",
+      "passwordRequired": "Kata laluan diperlukan",
+      "passwordTooShort": "Kata laluan mesti sekurang-kurangnya 8 aksara",
+      "passwordMismatch": "Kata laluan tidak sepadan"
+    },
+    "modals": {
+      "twoFA": {
+        "title": "Pengesahan Dua Fasa",
+        "description": "Sila masukkan OTP yang diberikan oleh aplikasi pengesah yang anda daftarkan sebelum ini.",
+        "buttons": {
+          "useEmailOtp": "Gunakan OTP Emel",
+          "useAuthApp": "Gunakan Aplikasi Pengesah"
+        },
+        "emailDescription": "Sila masukkan alamat emel yang anda gunakan untuk akaun anda.",
+        "inputs": {
+          "email": "Alamat Emel"
+        }
+      }
+    },
+    "orAuthenticateWith": "Atau sahkan dengan",
+    "messages": {
+      "otpSent": "Kata laluan sekali guna telah dihantar ke alamat email anda, jika ia dikaitkan dengan mana-mana akaun.",
+      "welcomeBack": "Selamat datang kembali, {{name}}!",
+      "invalidCredentials": "Emel atau kata laluan tidak sah. Sila cuba lagi.",
+      "invalidFields": "Medan tidak sah. Sila masukkan alamat email dan kata laluan yang sah.",
+      "quotaExceeded": "Jumlah percubaan maksimum telah dicapai. Sila cuba lagi kemudian.",
+      "unknownError": "Ralat yang tidak diketahui. Sila cuba lagi nanti.",
+      "invalidLoginAttempt": "Percubaan log masuk tidak sah. Sila cuba lagi."
+    },
+    "qrLogin": {
+      "title": "Imbas untuk Log Masuk",
+      "description": "Log masuk ke akaun anda menggunakan peranti lain.",
+      "expired": "Kod QR tamat tempoh",
+      "clickToRefresh": "Klik untuk muat semula",
+      "approved": "Log masuk diluluskan! Mengalihkan...",
+      "waiting": "Menunggu kelulusan...",
+      "approvalTitle": "Luluskan Log Masuk",
+      "approvalDescription": "Peranti meminta untuk log masuk ke akaun anda",
+      "browserInfo": "Maklumat Peranti",
+      "approve": "Luluskan Log Masuk",
+      "deny": "Tolak",
+      "success": "Log masuk berjaya diluluskan",
+      "scanQRCode": "Imbas Kod QR untuk Log Masuk",
+      "invalidQR": "Kod QR tidak sah",
+      "sessionNotFound": "Sesi tidak dijumpai atau tamat tempoh",
+      "alreadyApproved": "Sesi telah diluluskan"
+    }
+  },
+  "vault": {
+    "vault": {
+      "lockedMessage": "Petak simpanan anda dikunci",
+      "passwordRequired": "Kata laluan utama diperlukan untuk menyahsulit petak simpanan anda.",
+      "unlocked": "Petak simpanan dibuka",
+      "failedToUnlock": "Gagal membuka petak simpanan",
+      "buttons": {
+        "unlock": "Buka Kunci"
+      },
+      "createPassword": {
+        "title": "Tetapkan Kata Laluan Utama",
+        "desc": "Sila tetapkan kata laluan utama untuk melindungi petak simpanan anda."
+      },
+      "inputs": {
+        "newPassword": "Kata Laluan Baru",
+        "confirmPassword": "Sahkan Kata Laluan",
+        "masterPassword": "Kata Laluan Utama"
+      },
+      "confirmSetNewPassword": {
+        "title": "Pastikan anda ingat kata laluan utama anda!",
+        "desc": "Kata laluan utama ini tidak boleh diubah (buat masa ini)! Jika anda terlupa kata laluan secara tidak sengaja, anda akan kehilangan segala-galanya. Kata laluan ini dihash dan disimpan dalam profil pengguna anda, dan ia tidak boleh disahsulit. Ia akan digunakan untuk menyulit dan menyahsulit data yang anda simpan dalam petak simpanan anda."
+      }
+    },
+    "otp": {
+      "buttons": {
+        "request": "Minta OTP",
+        "resend": "Hantar Semula OTP",
+        "verify": "Sahkan OTP",
+        "authByQR": "Sahkan dengan Kod QR"
+      },
+      "messages": {
+        "success": "OTP dihantar! Sila semak emel anda.",
+        "failed": "Gagal meminta OTP",
+        "invalid": "OTP mesti nombor 6 digit",
+        "cooldown": "Permintaan terlalu kerap, sila cuba lagi nanti",
+        "required": {
+          "title": "OTP Diperlukan untuk Membuka Kunci",
+          "desc": "Untuk keselamatan tambahan, OTP diperlukan untuk membuka kunci modul ini. Sila klik butang di bawah untuk meminta OTP."
+        },
+        "verify": {
+          "success": "Pengesahan OTP berjaya",
+          "failed": "Pengesahan OTP gagal"
+        }
+      }
+    }
+  }
+}
