@@ -127,6 +127,13 @@
     "viewImage": "Lihat Imej"
   },
   "misc": {
+    "alert": {
+      "note": "Nota",
+      "warning": "Amaran",
+      "caution": "Awas",
+      "tip": "Petua",
+      "important": "Penting"
+    },
     "search": "Cari {{item}}...",
     "notFound": {
       "title": "Oops! Tiada apa-apa di sini",
@@ -246,22 +253,7 @@
     "fileInputSupportedFormat": "Format yang disokong: {{format}}"
   },
   "sidebar": {
-    "categories": {
-      "productivity": "Produktiviti",
-      "storage": "Penyimpanan",
-      "study": "Pembelajaran",
-      "finance": "Kewangan",
-      "confidential": "Sulit",
-      "settings": "Tetapan",
-      "technologies": "Teknologi",
-      "utilities": "Utiliti",
-      "information": "Maklumat",
-      "sso": "Log Masuk Tunggal",
-      "references": "Rujukan",
-      "lifestyle": "Gaya Hidup",
-      "externalManagement": "Pengurusan Luaran",
-      "healthFitness": "Kesihatan & Kecergasan"
-    },
+    "categories": {},
     "buttons": {
       "signOut": "Log Keluar",
       "accountSettings": "Tetapan Akaun"
@@ -385,7 +377,8 @@
       "invalidFields": "Medan tidak sah. Sila masukkan alamat email dan kata laluan yang sah.",
       "quotaExceeded": "Jumlah percubaan maksimum telah dicapai. Sila cuba lagi kemudian.",
       "unknownError": "Ralat yang tidak diketahui. Sila cuba lagi nanti.",
-      "invalidLoginAttempt": "Percubaan log masuk tidak sah. Sila cuba lagi."
+      "invalidLoginAttempt": "Percubaan log masuk tidak sah. Sila cuba lagi.",
+      "userCreated": "Akaun berjaya dibuat! Selamat datang ke LifeForge."
     },
     "qrLogin": {
       "title": "Imbas untuk Log Masuk",
@@ -413,7 +406,8 @@
       "unlocked": "Petak simpanan dibuka",
       "failedToUnlock": "Gagal membuka petak simpanan",
       "buttons": {
-        "unlock": "Buka Kunci"
+        "unlock": "Buka Kunci",
+        "recoverAccount": "Pulihkan Akaun"
       },
       "createPassword": {
         "title": "Tetapkan Kata Laluan Utama",
