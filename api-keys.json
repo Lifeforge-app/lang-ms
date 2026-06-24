@@ -15,7 +15,9 @@
     },
     "modulesRequired": {
       "title": "Modul Diperlukan",
-      "totalModulesRequire": "Sebanyak {{count}} modul memerlukan Kunci API ini."
+      "totalModulesRequire": "Sebanyak {{count}} modul memerlukan Kunci API ini.",
+      "required": "Diperlukan",
+      "optional": "Pilihan"
     }
   },
   "buttons": {

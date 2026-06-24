@@ -11,6 +11,10 @@
     "manageWidgets": "Urus Widget",
     "lockLayout": "Kunci Susun Atur"
   },
+  "messages": {
+    "editingLayout": "Anda sedang menyunting susun atur papan pemuka",
+    "editingLayoutHint": "Laraskan susunan widget dengan menyeret widget atau laraskan saiz widget dengan menyeret segi tiga kecil di sudut kanan bawah setiap widget"
+  },
   "empty": {
     "welcome": {
       "title": "Selamat Datang ke LifeForge!",
