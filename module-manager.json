@@ -3,16 +3,6 @@
   "description": "Pengurus modul berasaskan UI untuk instans LifeForge anda",
   "category": "Kategori",
   "subsections": {
-    "modules": "Modul",
-    "categories": "Kategori"
-  },
-  "buttons": {
-    "uninstall": "Nyahpasang",
-    "addTranslation": "Tambah Terjemahan",
-    "addCategory": "Tambah Kategori",
-    "add category": "Tambah Kategori"
-  },
-  "subsectionTitleAndDesc": {
     "modules": {
       "title": "Modul",
       "description": "Pasang, kemas kini, dan buang modul daripada instans LifeForge anda"
@@ -21,6 +11,12 @@
       "title": "Kategori",
       "description": "Susun dan susun semula kategori bar sisi untuk menyesuaikan navigasi anda"
     }
+  },
+  "buttons": {
+    "uninstall": "Nyahpasang",
+    "addTranslation": "Tambah Terjemahan",
+    "addCategory": "Tambah Kategori",
+    "add category": "Tambah Kategori"
   },
   "items": {
     "category": "Kategori"
