@@ -250,7 +250,8 @@
     "invalidIcon": "Ikon tidak sah. Ia mesti pengenalan ikon yang sah dari Iconify dalam format <icon-set>:<icon-name>.",
     "loadingUserData": "Memuatkan data pengguna...",
     "invalidSelection": "Pemilihan tidak sah. Sila pilih pilihan yang sah dari senarai.",
-    "fileInputSupportedFormat": "Format yang disokong: {{format}}"
+    "fileInputSupportedFormat": "Format yang disokong: {{format}}",
+    "viewMode": "Lihat sebagai"
   },
   "sidebar": {
     "categories": {},
