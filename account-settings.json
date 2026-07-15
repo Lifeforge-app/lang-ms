@@ -9,7 +9,8 @@
       "email": "Alamat Emel",
       "password": "Kata Laluan",
       "dateOfBirth": "Tarikh Lahir",
-      "twoFA": "Pengesahan Dua Faktor"
+      "twoFA": "Pengesahan Dua Faktor",
+      "oauth": "Pembekal OAuth"
     },
     "desc": {
       "profilePicture": "Muat naik gambar profil untuk memperibadikan akaun anda.",
@@ -18,11 +19,13 @@
       "email": "Alamat emel yang anda gunakan untuk log masuk ke akaun anda.",
       "password": "Tetapkan kata laluan yang kuat untuk melindungi akaun anda.",
       "dateOfBirth": "Tetapkan tarikh lahir anda, dan kami akan memberi anda kejutan!",
-      "twoFA": "Aktifkan pengesahan dua faktor semasa masuk ke dalam sistem."
+      "twoFA": "Aktifkan pengesahan dua faktor semasa masuk ke dalam sistem.",
+      "oauth": "Konfigurasikan penyedia OAuth untuk membolehkan log masuk pihak ketiga."
     },
     "empty": "Tidak Ditentukan"
   },
   "modals": {
+    "oauthConfig": "Konfigurasi Pembekal OAuth",
     "username": {
       "update": "Kemas Kini Nama Pengguna"
     },
@@ -46,10 +49,15 @@
     },
     "changePassword": {
       "title": "Tukar Kata Laluan"
+    },
+    "oauthProvider": {
+      "create": "Tambah Pembekal OAuth",
+      "update": "Kemas Kini Pembekal OAuth"
     }
   },
   "buttons": {
-    "changePassword": "Tukar Kata Laluan"
+    "changePassword": "Tukar Kata Laluan",
+    "configure": "Konfigurasikan"
   },
   "inputs": {
     "dateOfBirth": "Tarikh Lahir",
@@ -67,16 +75,31 @@
     "confirmPassword": {
       "label": "Sahkan Kata Laluan Baru",
       "placeholder": "Masukkan kata laluan baru anda sekali lagi"
+    },
+    "oauthProvider": {
+      "provider": "Pembekal",
+      "clientId": "ID Pelanggan",
+      "clientSecret": "Rahsia Pelanggan"
     }
   },
   "messages": {
     "twoFA": {
       "enableSuccess": "Pengesahan dua faktor berjaya diaktifkan.",
       "disableSuccess": "Pengesahan dua faktor berjaya dilumpuhkan."
+    },
+    "oauth": {
+      "changeConfirm": "Adakah anda pasti mahu menukar kelayakan OAuth?",
+      "changeAlert": "Mengemas kini ID dan rahsia pelanggan akan menggantikan yang sedia ada. Tindakan ini tidak boleh diterbalikkan."
     }
   },
   "misc": {
     "enabled": "Diaktifkan",
-    "disabled": "Dinonaktifkan"
+    "disabled": "Dinonaktifkan",
+    "oauthStatus": "{{confCount}} dikonfigurasi, {{enabledCount}} diaktifkan",
+    "lastUpdated": "Kemas kini terakhir:"
+  },
+  "tabs": {
+    "personalInformation": "Maklumat Peribadi",
+    "accountAndSecurity": "Akaun & Keselamatan"
   }
 }
