@@ -446,5 +446,103 @@
         }
       }
     }
+  },
+  "recurring": {
+    "freqs": {
+      "yearly": "Tahunan",
+      "monthly": "Bulanan",
+      "weekly": "Mingguan",
+      "daily": "Harian",
+      "hourly": "Setiap Jam"
+    },
+    "onThe": {
+      "first": "Pertama",
+      "second": "Kedua",
+      "third": "KetigK",
+      "fourth": "Keempat",
+      "last": "Terakhir"
+    },
+    "onTheDay": {
+      "weekday": "Hari Minggu",
+      "day": "Hari",
+      "weekendDay": "Hari Weekend"
+    },
+    "endTypes": {
+      "never": "Tidak pernah",
+      "after": "Selepas",
+      "on": "Pada Tarikh"
+    },
+    "inputs": {
+      "on": "Tarikh",
+      "after": "Jumlah",
+      "executions": "Pelaksanaan",
+      "durationUnit": "Unit Tempoh",
+      "durationAmount": "Jumlah Tempoh",
+      "frequency": "Kekerapan",
+      "yearly": {
+        "exactDate": {
+          "title": "Pada Tarikh Tepat",
+          "inputs": {
+            "month": "Bulan",
+            "date": "Tarikh"
+          }
+        },
+        "relativeDay": {
+          "title": "Pada Hari Relatif",
+          "inputs": {
+            "onThe": "Pada",
+            "onTheDay": "Hari",
+            "ofTheMonth": "Bulan Ini"
+          }
+        }
+      },
+      "monthly": {
+        "inputs": {
+          "every": "Setiap",
+          "months": "Bulan"
+        },
+        "exactDate": {
+          "title": "Pada Tarikh Tepat",
+          "inputs": {
+            "date": "Tarikh"
+          }
+        },
+        "relativeDay": {
+          "title": "Pada Hari Relatif",
+          "inputs": {
+            "onThe": "Pada",
+            "onTheDay": "Hari"
+          }
+        }
+      },
+      "weekly": {
+        "inputs": {
+          "every": "Setiap",
+          "weeks": "Minggu",
+          "onDays": "Pada Hari"
+        }
+      },
+      "daily": {
+        "inputs": {
+          "every": "Setiap",
+          "days": "Hari"
+        }
+      },
+      "hourly": {
+        "inputs": {
+          "every": "Setiap",
+          "hours": "Jam"
+        }
+      },
+      "endType": "Tamat"
+    },
+    "durationUnits": {
+      "minute": "Minit",
+      "hour": "Jam",
+      "day": "Hari",
+      "week": "Minggu",
+      "month": "Bulan",
+      "year": "Tahun"
+    }
   }
 }
