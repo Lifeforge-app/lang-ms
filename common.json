@@ -53,6 +53,11 @@
       "error": "Ralat semasa memadam item. Sila cuba lagi."
     },
     "searchFilters": "Penapis Carian",
+    "datePicker": {
+      "title": "Pilih Tarikh",
+      "titleWithTime": "Pilih Tarikh & Masa",
+      "yearMonth": "Pilih Tahun & Bulan"
+    },
     "iconPicker": {
       "title": "Pilih Ikon",
       "items": {
