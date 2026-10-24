@@ -7,5 +7,9 @@
     "code": "ms",
     "displayName": "Bahasa Malaysia",
     "icon": "circle-flags:my"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lifeforge-app/lang-ms.git"
   }
 }
