@@ -119,12 +119,27 @@
       "modals": {
         "morandiColorPalette": "Palet Warna Morandi",
         "tailwindCssColorPalette": "Palet Warna Tailwind CSS",
-        "flatUiColors": "Flat UI Colors"
+        "flatUiColors": "Flat UI Colors",
+        "chineseTraditionalColors": "Warna Tradisional Cina"
       },
       "buttons": {
         "morandiColorPalette": "Palet Warna Morandi",
         "tailwindCssColorPalette": "Palet Warna Tailwind CSS",
-        "flatUiColors": "Flat UI Colors"
+        "flatUiColors": "Flat UI Colors",
+        "chineseTraditionalColors": "Warna Tradisional Cina"
+      },
+      "groups": {
+        "white": "Putih",
+        "orange": "Oren",
+        "pink": "Merah Jambu",
+        "green": "Hijau",
+        "cyan": "Sian",
+        "blue": "Biru",
+        "purple": "Ungu",
+        "yellow": "Kuning",
+        "red": "Merah",
+        "black": "Hitam",
+        "brown": "Coklat"
       }
     },
     "imagePreview": "Pratonton Imej",
